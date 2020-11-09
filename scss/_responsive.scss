@@ -1,0 +1,79 @@
+@media (max-width: 990px) {
+    .logo {
+        font-size: 30px;
+    }
+    nav ul li a {
+        font-size: 16px;
+    }
+    .checkbtn {
+        display: block;
+        margin-top: -15px;
+    }
+    #nav-ul {
+        position: absolute;
+        width: 100%;
+        height: 100vh;
+        background: #171717;
+        top: 52px;
+        right: -100%;
+        text-align: center;
+        transition: all 0.3s;
+        z-index: 1;
+    }
+    nav ul li {
+        display: block;
+        margin: 50px 0;
+        line-height: 12px;
+    }
+    nav ul li a {
+        font-size: 20px;
+    }
+    nav ul li a:hover {
+        border: none;
+        transition: .3s;
+        font-size: 21px;
+    }
+    #check:checked ~ ul {
+        right: 0;
+    }
+    .top-con {
+        max-width: 100% !important;
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+    #navba {
+        background-color: #3330;
+        max-width: 100%;
+        padding: 0px 20px;
+    }
+}
+@media (max-width: 990px) {
+    .main-text {
+        font-size: xx-large;
+        padding-top: 150px;
+    }
+}
+@media (max-width: 769px) {
+}
+@media (max-width: 579px) {
+    .contact-cards {
+        margin-left: 50%;
+        transform: translate(-50%);
+        text-align: center;
+    }
+}
+
+@media (max-width: 499px) {
+    .main-text {
+        font-size: 18px;
+    }
+    .main-text-two {
+        font-size: 14px;
+    }
+    .box {
+        margin-top: 90px;
+    }
+    .search-btn{
+        margin-top: 0px;
+    }
+}

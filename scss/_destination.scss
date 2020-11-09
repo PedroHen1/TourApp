@@ -1,0 +1,50 @@
+@mixin italy-us {
+    background-size: cover;
+    height: 40vh;
+    background-position: center;
+    border-radius: 10px;
+}
+
+@mixin otherCountries {
+    background-size: cover;
+    height: 50vh;
+    background-position: center;
+    border-radius: 20px;
+}
+#us {
+    background-image: url(../image/newyork.jpeg);
+    @include italy-us;
+}
+#italy {
+    background-image: url(../image/italy.jpeg);
+    @include italy-us
+}
+.ser-box h1 {
+    color: white;
+    font-weight: bold;
+    font-family: 25px;
+    margin-top: 100px;
+}
+#japan {
+    background-image: url(../image/japan.jpeg);
+    @include otherCountries
+}
+#france {
+    background-image: url(../image/france.jpeg);
+    @include otherCountries
+}
+#brazil {
+    background-image: url(../image/brazil.jpeg);
+    @include otherCountries
+}
+#uk {
+    background-image: url(../image/uk.jpeg);
+    @include otherCountries
+}
+.ser-box h3 {
+    color: white;
+    font-weight: bold;
+    font-family: 25px;
+    margin-top: 140px;
+    border-radius: 20px;
+}

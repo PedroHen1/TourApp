@@ -1,0 +1,161 @@
+html { scroll-behavior: smooth; }
+
+body { padding: 0; margin: 0; }
+
+.home-background { background: url(../image/mountains.jpeg); width: 100%; height: 100vh; margin: 0; position: relative; background-repeat: no-repeat; background-size: cover; background-position: center; background-attachment: fixed; padding-bottom: 45px; }
+
+.logo { color: #fff; font-size: 32px; }
+
+.Header-top { position: fixed; background-color: transparent; width: 100%; z-index: 1; }
+
+nav { background: transparent; height: 53px; width: 100%; }
+
+nav ul { float: right; }
+
+nav li { display: inline-block; padding: 15px 0px; margin: 0px; }
+
+nav a { color: #fff !important; font-size: 16px; font-weight: 700; margin: 0px 10px; padding: 3px; -webkit-text-decoration-line: none !important; text-decoration-line: none !important; }
+
+nav a:hover { border-bottom: 2px solid #fff; }
+
+.checkbtn { font-size: 30px; color: white; float: right; line-height: 80px; margin-right: 0px; cursor: pointer; display: none; }
+
+.checkbtn i { font-size: 25px !important; }
+
+#check { display: none; }
+
+.main-text { color: #fff; text-align: center; padding-top: 320px; letter-spacing: 0.1rem; font-size: 40px; font-family: "Josefin Sans", sans-serif; }
+
+.main-text-two { color: #fff; text-align: center; letter-spacing: 0.1rem; font-size: 25px; font-family: "Times New Roman", Times, serif; }
+
+.box { height: 100%; width: 100%; background-color: rgba(0, 0, 0, 0.521); padding: 20px 20px 10px 20px; margin-top: 120px; margin-bottom: 40px !important; }
+
+.box h4 { font-weight: 400 !important; color: #fff; font-size: 22px !important; }
+
+i { color: #fff; font-size: 17px !important; }
+
+::-webkit-input-placeholder { color: whitesmoke; background-color: transparent; }
+
+:-ms-input-placeholder { color: whitesmoke; background-color: transparent; }
+
+::-ms-input-placeholder { color: whitesmoke; background-color: transparent; }
+
+::placeholder { color: whitesmoke; background-color: transparent; }
+
+.text-edit { background: transparent; border: none; outline: none !important; color: #ffffff; font-family: sans-serif; }
+
+.search-body i { color: #171717; font-size: 15px !important; padding: 10px 3px; }
+
+.search-btn { margin-top: 25px; padding-right: 17px; font-size: 15px; background-color: #fff; border-radius: 10px; border: none; cursor: pointer; outline: none !important; width: 100%; }
+
+.search-btn:hover { -webkit-transition: all .2s; transition: all .2s; background-color: #ffe8d2; }
+
+input[type="date"]::-webkit-inner-spin-button, input[type="date"]::-webkit-calendar-picker-indicator { display: none; -webkit-appearance: none; }
+
+#SERVICES { margin-top: 40px; }
+
+.s-name h2 { text-align: center; letter-spacing: 0.1rem; font-weight: 700; margin: 80px 0px 18px 0px; color: #212020; }
+
+.small-line { border: 1px solid #212020; display: block; margin: auto; margin-bottom: 85px; width: 75px; }
+
+.ser-name h2 { font-weight: 300; letter-spacing: 0.1rem; font-size: 23px; color: #030303; padding: 20px 0px 5px 0px; }
+
+.ser-box { width: 100% !important; background-color: #efebeb87; text-align: center; padding: 30px 0px 25px 0px; margin-bottom: 60px; -webkit-box-shadow: 1px 2px 2px 0px rgba(51, 52, 54, 0.2); box-shadow: 1px 2px 2px 0px rgba(51, 52, 54, 0.2); }
+
+.ser-box:hover { border-radius: 5px; -webkit-box-shadow: 0px 16px 22px 0px rgba(90, 91, 95, 0.3); box-shadow: 0px 16px 22px 0px rgba(90, 91, 95, 0.3); }
+
+#us { background-image: url(../image/newyork.jpeg); background-size: cover; height: 40vh; background-position: center; border-radius: 10px; }
+
+#italy { background-image: url(../image/italy.jpeg); background-size: cover; height: 40vh; background-position: center; border-radius: 10px; }
+
+.ser-box h1 { color: white; font-weight: bold; font-family: 25px; margin-top: 100px; }
+
+#japan { background-image: url(../image/japan.jpeg); background-size: cover; height: 50vh; background-position: center; border-radius: 20px; }
+
+#france { background-image: url(../image/france.jpeg); background-size: cover; height: 50vh; background-position: center; border-radius: 20px; }
+
+#brazil { background-image: url(../image/brazil.jpeg); background-size: cover; height: 50vh; background-position: center; border-radius: 20px; }
+
+#uk { background-image: url(../image/uk.jpeg); background-size: cover; height: 50vh; background-position: center; border-radius: 20px; }
+
+.ser-box h3 { color: white; font-weight: bold; font-family: 25px; margin-top: 140px; border-radius: 20px; }
+
+.trendings { text-align: center; margin-bottom: 40px; }
+
+.trendings a { color: #171717; font-size: 17px; font-weight: 700; margin: 0px 20px; }
+
+.trending-btn { background: none; border: none; padding: 0; margin: 0px 5px; font-weight: bold; font-size: 1.3rem; color: #171717; outline: none !important; }
+
+/*hotel*/
+#hotel-btn { border-bottom: 2px solid #171717; }
+
+.hotel { margin-bottom: 20px; }
+
+.hotel i { color: #fdf79e; }
+
+#hotel1 { background-image: url(../image/hotelnewyork.jpeg); background-size: cover; background-position: center; height: 80vh; color: white; text-align: left; padding: 30px; }
+
+#hotel2 { background-image: url(../image/hotelmiami.jpeg); background-size: cover; background-position: center; height: 80vh; color: white; text-align: left; padding: 30px; }
+
+#hotel3 { background-image: url(../image/hotelfortaleza.jpeg); background-size: cover; background-position: center; height: 80vh; color: white; text-align: left; padding: 30px; }
+
+/*cruise*/
+#cruise1 { background-image: url(../image/cruise1.jpeg); background-size: cover; background-position: center; height: 80vh; color: white; text-align: right; padding: 30px; }
+
+#cruise2 { background-image: url(../image/cruise2.jpeg); background-size: cover; background-position: center; height: 80vh; color: white; text-align: right; padding: 30px; }
+
+#cruise-container { display: none; }
+
+/*flight*/
+#flight-container { display: none; }
+
+.flight h2 { font-size: 25px; }
+
+#flight1 { background-image: url(../image/flight1.jpeg); background-size: cover; background-position: center; height: 80vh; text-align: left; padding: 30px; }
+
+#flight2 { background-image: url(../image/flight2.jpeg); background-size: cover; background-position: center; height: 80vh; text-align: left; padding: 30px; }
+
+#flight3 { background-image: url(../image/flight3.jpeg); background-size: cover; background-position: center; height: 80vh; text-align: left; padding: 30px; }
+
+/*MAP*/
+#map { background-image: url(../image/map.jpeg); background-size: cover; height: 40vh; margin: 0; position: relative; background-repeat: no-repeat; background-size: cover; background-attachment: fixed; }
+
+.social { margin-right: 30px; }
+
+#Contact { background-color: #171717; margin-top: -80px; }
+
+#Contact .small-line { border: 1px solid #ffffff !important; }
+
+#Contact h2 { padding-top: 70px; color: white; }
+
+#contact-cards { color: white !important; position: relative; padding-bottom: 80px; }
+
+#contact-cards div { background-color: transparent !important; font-size: 15px; border: none; }
+
+#contact-cards div ul li { background-color: transparent !important; border: none; }
+
+#card-header { font-size: 20px !important; font-weight: 700; }
+
+/*COPYRIGHT*/
+.copy { text-align: center; color: #5f5f5f; padding-top: 20px; height: 8vh; background-color: #111111; }
+
+@media (max-width: 990px) { .logo { font-size: 30px; }
+  nav ul li a { font-size: 16px; }
+  .checkbtn { display: block; margin-top: -15px; }
+  #nav-ul { position: absolute; width: 100%; height: 100vh; background: #171717; top: 52px; right: -100%; text-align: center; -webkit-transition: all 0.3s; transition: all 0.3s; z-index: 1; }
+  nav ul li { display: block; margin: 50px 0; line-height: 12px; }
+  nav ul li a { font-size: 20px; }
+  nav ul li a:hover { border: none; -webkit-transition: .3s; transition: .3s; font-size: 21px; }
+  #check:checked ~ ul { right: 0; }
+  .top-con { max-width: 100% !important; margin: 0 !important; padding: 0 !important; }
+  #navba { background-color: #3330; max-width: 100%; padding: 0px 20px; } }
+
+@media (max-width: 990px) { .main-text { font-size: xx-large; padding-top: 150px; } }
+
+@media (max-width: 579px) { .contact-cards { margin-left: 50%; -webkit-transform: translate(-50%); transform: translate(-50%); text-align: center; } }
+
+@media (max-width: 499px) { .main-text { font-size: 18px; }
+  .main-text-two { font-size: 14px; }
+  .box { margin-top: 90px; }
+  .search-btn { margin-top: 0px; } }
+/*# sourceMappingURL=main.css.map */

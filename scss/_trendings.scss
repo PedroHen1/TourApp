@@ -1,0 +1,110 @@
+@mixin img-left {
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+    color: white;
+    text-align: left;
+    padding: 30px;
+};
+@mixin img-right {
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+    color: white;
+    text-align: right;
+    padding: 30px;
+}
+@mixin img-flight {
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+    text-align: left;
+    padding: 30px;
+}
+.trendings {
+    text-align: center;
+    margin-bottom: 40px;
+    a {
+        color: #171717;
+        font-size: 17px;
+        font-weight: 700;
+        margin: 0px 20px;
+    }
+}
+.trending-btn {
+    background: none;
+    border: none;
+    padding: 0;
+    margin: 0px 5px;
+    font-weight: bold;
+    font-size: 1.3rem;
+    color: #171717;
+    outline: none !important;
+}
+/*hotel*/
+#hotel-btn {
+    border-bottom: 2px solid #171717;
+}
+.hotel {
+    margin-bottom: 20px;
+    i {
+        color: #fdf79e;
+    }
+}
+#hotel1 {
+    background-image: url(../image/hotelnewyork.jpeg);
+    @include img-left;
+}
+#hotel2 {
+    background-image: url(../image/hotelmiami.jpeg);
+    @include img-left;
+}
+#hotel3 {
+    background-image: url(../image/hotelfortaleza.jpeg);
+    @include img-left;
+}
+/*cruise*/
+#cruise1 {
+    background-image: url(../image/cruise1.jpeg);
+    @include img-right;
+}
+#cruise2 {
+    background-image: url(../image/cruise2.jpeg);
+    @include img-right
+}
+#cruise-container {
+    display: none;
+}
+/*flight*/
+#flight-container {
+    display: none;
+}
+
+.flight h2{
+    font-size: 25px;
+}
+#flight1 {
+    background-image: url(../image/flight1.jpeg);
+    @include img-flight
+}
+#flight2 {
+    background-image: url(../image/flight2.jpeg);
+    @include img-flight
+}
+#flight3 {
+    background-image: url(../image/flight3.jpeg);
+    @include img-flight
+}
+
+/*MAP*/
+
+#map {
+    background-image: url(../image/map.jpeg);
+    background-size: cover;
+    height: 40vh;
+    margin: 0;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}

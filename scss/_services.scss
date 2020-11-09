@@ -1,0 +1,37 @@
+#SERVICES {
+    margin-top: 40px;
+}
+.s-name h2 {
+    text-align: center;
+    letter-spacing: 0.1rem;
+    font-weight: 700;
+    margin: 80px 0px 18px 0px;
+    color: #212020;
+}
+.small-line {
+    border: 1px solid #212020;
+    display: block;
+    margin: auto;
+    margin-bottom: 85px;
+    width: 75px;
+}
+.ser-name h2 {
+    font-weight: 300;
+    letter-spacing: 0.1rem;
+    font-size: 23px;
+    color: #030303;
+    padding: 20px 0px 5px 0px;
+}
+.ser-box {
+    width: 100% !important;
+    background-color: #efebeb87;
+    text-align: center;
+    padding: 30px 0px 25px 0px;
+    margin-bottom: 60px;
+    box-shadow: 1px 2px 2px 0px rgba(51, 52, 54, .2);
+    &:hover {
+        border-radius: 5px;
+        box-shadow: 0px 16px 22px 0px rgba(90, 91, 95, .3);
+    }
+}
+

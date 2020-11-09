@@ -1,0 +1,40 @@
+.social {
+    margin-right:30px;
+}
+#Contact {
+    background-color: #171717;
+    margin-top: -80px;
+    .small-line {
+        border: 1px solid #ffffff !important;
+    }
+    h2{
+        padding-top: 70px;
+        color: white;
+    }
+}
+#contact-cards {
+    color: white !important;
+    position: relative;
+    padding-bottom: 80px;
+    div {
+        background-color: transparent !important;
+        font-size: 15px;
+        border: none;
+        ul li {
+            background-color: transparent !important;
+            border: none;
+        }
+    }
+}
+#card-header {
+    font-size: 20px !important;
+    font-weight: 700;
+}
+/*COPYRIGHT*/
+.copy {
+    text-align: center;
+    color: #5f5f5f;
+    padding-top: 20px;
+    height: 8vh;
+    background-color: #111111;
+}
