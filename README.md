@@ -19,6 +19,6 @@ npm run build
 ```
 
 ### Demo: 
-https://traveltolive.netlify.app/
+https://tour-app-react.netlify.app/
 
 Thanks!
