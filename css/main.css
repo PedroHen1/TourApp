@@ -4,7 +4,7 @@ body { padding: 0; margin: 0; }
 
 .home-background { background: url(../image/mountains.jpeg); width: 100%; height: 100vh; margin: 0; position: relative; background-repeat: no-repeat; background-size: cover; background-position: center; background-attachment: fixed; padding-bottom: 45px; }
 
-.logo { color: #fff; font-size: 32px; }
+.logo { color: #fff; font-size: 32px; z-index: 999; }
 
 .Header-top { position: fixed; background-color: transparent; width: 100%; z-index: 1; }
 
@@ -143,12 +143,12 @@ input[type="date"]::-webkit-inner-spin-button, input[type="date"]::-webkit-calen
   nav ul li a { font-size: 16px; }
   .checkbtn { display: block; margin-top: -15px; }
   #nav-ul { position: absolute; width: 100%; height: 100vh; background: #171717; top: 52px; right: -100%; text-align: center; -webkit-transition: all 0.3s; transition: all 0.3s; z-index: 1; }
-  nav ul li { display: block; margin: 50px 0; line-height: 12px; }
-  nav ul li a { font-size: 20px; }
+  nav ul li { display: block; margin: 30px 0; line-height: 12px; }
+  nav ul li a { font-size: 18px; }
   nav ul li a:hover { border: none; -webkit-transition: .3s; transition: .3s; font-size: 21px; }
   #check:checked ~ ul { right: 0; }
   .top-con { max-width: 100% !important; margin: 0 !important; padding: 0 !important; }
-  #navba { background-color: #3330; max-width: 100%; padding: 0px 20px; } }
+  #navba { background-color: transparent; max-width: 100%; padding: 0px 20px; } }
 
 @media (max-width: 990px) { .main-text { font-size: xx-large; padding-top: 150px; } }
 
